@@ -1,3 +1,4 @@
+#[derive(Debug, PartialEq, Eq, Hash, Clone)]
 pub struct Entity32 {
   pub id: u32,
 }
@@ -8,6 +9,7 @@ impl Entity32 {
   }
 }
 
+#[derive(Debug, PartialEq, Eq, Hash, Clone)]
 pub struct Entity64 {
   pub id: u64,
 }
